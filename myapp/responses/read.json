@@ -1,0 +1,94 @@
+{
+	"Job": {
+		"Id": "3333333333333-abcde3",
+		"Inputs": [
+			{
+				"Key": "foo.mp4",
+				"FrameRate": "auto",
+				"Resolution": "auto",
+				"AspectRatio": "auto",
+				"Interlaced": "auto",
+				"Container": "mp4",
+				"InputCaptions": {
+					"MergePolicy": "MergeOverride",
+					"CaptionSources": []
+				},
+				"DetectedProperties": {
+					"Width": "1280",
+					"Height": "720",
+					"FrameRate": "30.00",
+					"FileSize": "123456",
+					"DurationMillis": "30000"
+				}
+			},
+			{
+				"Key": "bar.mp4",
+				"FrameRate": "auto",
+				"Resolution": "auto",
+				"AspectRatio": "auto",
+				"Interlaced": "auto",
+				"Container": "mp4",
+				"InputCaptions": {
+					"MergePolicy": "MergeOverride",
+					"CaptionSources": []
+				},
+				"DetectedProperties": {
+					"Width": "1280",
+					"Height": "720",
+					"FrameRate": "30.00",
+					"FileSize": "123456",
+					"DurationMillis": "30000"
+				}
+			},
+			{
+				"Key": "baz.mp4",
+				"FrameRate": "auto",
+				"Resolution": "auto",
+				"AspectRatio": "auto",
+				"Interlaced": "auto",
+				"Container": "mp4",
+				"InputCaptions": {
+					"MergePolicy": "MergeOverride",
+					"CaptionSources": []
+				},
+				"DetectedProperties": {
+					"Width": "1280",
+					"Height": "720",
+					"FrameRate": "30.00",
+					"FileSize": "123456",
+					"DurationMillis": "30000"
+				}
+			}
+		],
+		"OutputKeyPrefix": "",
+		"Output": {
+			"Id": "1",
+			"Key": "qux.mp4",
+			"ThumbnailPattern": "qux-{count}",
+			"Rotate": "0",
+			"PresetId": "1351620000000-100080",
+			"Watermarks": [],
+			"Duration": "90",
+			"DurationMillis": "90000",
+			"Width": "1280",
+			"Height": "720",
+			"FrameRate": "30.00",
+			"FileSize": "123456",
+			"Status": "Complete",
+			"StatusDetail": "",
+			"AppliedColorSpaceConversion": "None",
+			"Captions": {
+				"CaptionFormats": []
+			}
+		},
+		"Playlists": [],
+		"UserMetadata": {},
+		"PipelineId": "1111111111111-abcde1",
+		"Status": "Complete",
+		"Timing": {
+			"SubmitTime": "1427212800000",
+			"StartTime": "1427212856000",
+			"FinishTime": "1427212875000"
+		}
+	}
+}

@@ -2,7 +2,7 @@
 
 ## About
 
-Elastic Phanscoder is a Docker image for mocking AWS Elastic Transcoder during development.
+Elastic Phanscoder is a Docker image for mocking AWS Elastic Transcoder.
 
 ## Example
 
